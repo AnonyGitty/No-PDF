@@ -125,13 +125,13 @@ a {
 /** Text Selection Color Change **/
 
 ::-moz-selection { /* Firefox */
-  color: red;
-  background: yellow;
+  color: #50fa7b;
+  background: #f8f8f2;
 }
 
 ::selection {
-  color: red;
-  background: yellow;
+  color: #50fa7b;
+  background: #f8f8f2;
 }
 
 /** Made This Kinda Responsive **/
