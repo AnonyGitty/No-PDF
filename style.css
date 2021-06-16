@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 
-
+/** Sorry Text Glow Animation **/
   
 @-webkit-keyframes glow {
     from {
@@ -51,6 +51,7 @@ a {
     position: relative;
     margin-top: 35px;
     padding: 20px 50px;
+    font-size: 15px;
     font-weight: bold;
     display: block;
     text-align: center;
@@ -120,6 +121,18 @@ a {
     }
   }
 
+
+/** Text Selection Color Change **/
+
+::-moz-selection { /* Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
 
 /** Made This Kinda Responsive **/
 
